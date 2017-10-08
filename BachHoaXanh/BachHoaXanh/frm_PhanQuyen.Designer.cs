@@ -222,11 +222,7 @@
             this.dockPanel_Container.Controls.Add(this.accordionControl);
             this.dockPanel_Container.Location = new System.Drawing.Point(3, 24);
             this.dockPanel_Container.Name = "dockPanel_Container";
-<<<<<<< HEAD
-            this.dockPanel_Container.Size = new System.Drawing.Size(193, 402);
-=======
             this.dockPanel_Container.Size = new System.Drawing.Size(193, 417);
->>>>>>> 38a4bb707dca4491f2c82246f897becf68dea9a6
             this.dockPanel_Container.TabIndex = 0;
             // 
             // accordionControl
@@ -237,11 +233,7 @@
             this.mainAccordionGroup});
             this.accordionControl.Location = new System.Drawing.Point(0, 0);
             this.accordionControl.Name = "accordionControl";
-<<<<<<< HEAD
-            this.accordionControl.Size = new System.Drawing.Size(193, 402);
-=======
             this.accordionControl.Size = new System.Drawing.Size(193, 417);
->>>>>>> 38a4bb707dca4491f2c82246f897becf68dea9a6
             this.accordionControl.TabIndex = 0;
             this.accordionControl.Text = "accordionControl";
             this.accordionControl.SelectedElementChanged += new DevExpress.XtraBars.Navigation.SelectedElementChangedEventHandler(this.accordionControl_SelectedElementChanged);

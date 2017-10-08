@@ -253,11 +253,6 @@ namespace BachHoaXanh.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-<<<<<<< HEAD
-        internal static System.Drawing.Bitmap page_wise_permission {
-            get {
-                object obj = ResourceManager.GetObject("page-wise-permission", resourceCulture);
-=======
         internal static System.Drawing.Bitmap people_contacts_group_128 {
             get {
                 object obj = ResourceManager.GetObject("people_contacts_group-128", resourceCulture);
@@ -271,7 +266,6 @@ namespace BachHoaXanh.Properties {
         internal static System.Drawing.Bitmap real_estate_vector_symbol_128 {
             get {
                 object obj = ResourceManager.GetObject("real_estate_vector_symbol-128", resourceCulture);
->>>>>>> 38a4bb707dca4491f2c82246f897becf68dea9a6
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
