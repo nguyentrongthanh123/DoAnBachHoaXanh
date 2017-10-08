@@ -181,6 +181,45 @@
   <ItemGroup>
     <None Include="Resources\delete_users-512.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\02_Shopping_Cart-128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\com-clr-cash_out-128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\com-clr-package-256.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Expired-128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\money_income_cash_bank-128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\162-128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\real_estate_vector_symbol-128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\194-128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\File_Import-128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\doc17-128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\book_bookmark_library_literature_knowledge_tutorial-128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\people_contacts_group-128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Info.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
        Other similar extension points exist, see Microsoft.Common.targets.

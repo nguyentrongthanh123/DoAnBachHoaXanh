@@ -90,7 +90,7 @@
             this.repositoryItemSearchControl1});
             this.ribbonControl.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonControlStyle.Office2013;
             this.ribbonControl.ShowApplicationButton = DevExpress.Utils.DefaultBoolean.False;
-            this.ribbonControl.Size = new System.Drawing.Size(790, 147);
+            this.ribbonControl.Size = new System.Drawing.Size(798, 147);
             this.ribbonControl.StatusBar = this.ribbonStatusBar;
             this.ribbonControl.ToolbarLocation = DevExpress.XtraBars.Ribbon.RibbonQuickAccessToolbarLocation.Hidden;
             // 
@@ -185,10 +185,10 @@
             // 
             // ribbonStatusBar
             // 
-            this.ribbonStatusBar.Location = new System.Drawing.Point(0, 576);
+            this.ribbonStatusBar.Location = new System.Drawing.Point(0, 591);
             this.ribbonStatusBar.Name = "ribbonStatusBar";
             this.ribbonStatusBar.Ribbon = this.ribbonControl;
-            this.ribbonStatusBar.Size = new System.Drawing.Size(790, 23);
+            this.ribbonStatusBar.Size = new System.Drawing.Size(798, 23);
             // 
             // dockManager
             // 
@@ -214,7 +214,7 @@
             this.dockPanel.Location = new System.Drawing.Point(0, 147);
             this.dockPanel.Name = "dockPanel";
             this.dockPanel.OriginalSize = new System.Drawing.Size(200, 200);
-            this.dockPanel.Size = new System.Drawing.Size(200, 429);
+            this.dockPanel.Size = new System.Drawing.Size(200, 444);
             this.dockPanel.Text = "Navigation";
             // 
             // dockPanel_Container
@@ -222,7 +222,11 @@
             this.dockPanel_Container.Controls.Add(this.accordionControl);
             this.dockPanel_Container.Location = new System.Drawing.Point(3, 24);
             this.dockPanel_Container.Name = "dockPanel_Container";
+<<<<<<< HEAD
             this.dockPanel_Container.Size = new System.Drawing.Size(193, 402);
+=======
+            this.dockPanel_Container.Size = new System.Drawing.Size(193, 417);
+>>>>>>> 38a4bb707dca4491f2c82246f897becf68dea9a6
             this.dockPanel_Container.TabIndex = 0;
             // 
             // accordionControl
@@ -233,7 +237,11 @@
             this.mainAccordionGroup});
             this.accordionControl.Location = new System.Drawing.Point(0, 0);
             this.accordionControl.Name = "accordionControl";
+<<<<<<< HEAD
             this.accordionControl.Size = new System.Drawing.Size(193, 402);
+=======
+            this.accordionControl.Size = new System.Drawing.Size(193, 417);
+>>>>>>> 38a4bb707dca4491f2c82246f897becf68dea9a6
             this.accordionControl.TabIndex = 0;
             this.accordionControl.Text = "accordionControl";
             this.accordionControl.SelectedElementChanged += new DevExpress.XtraBars.Navigation.SelectedElementChangedEventHandler(this.accordionControl_SelectedElementChanged);
@@ -312,7 +320,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(790, 599);
+            this.ClientSize = new System.Drawing.Size(798, 614);
+            this.ControlBox = false;
             this.Controls.Add(this.dockPanel);
             this.Controls.Add(this.ribbonStatusBar);
             this.Controls.Add(this.ribbonControl);

@@ -63,9 +63,69 @@ namespace BachHoaXanh.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _02_Shopping_Cart_128 {
+            get {
+                object obj = ResourceManager.GetObject("02_Shopping_Cart-128", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _162_128 {
+            get {
+                object obj = ResourceManager.GetObject("162-128", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _194_128 {
+            get {
+                object obj = ResourceManager.GetObject("194-128", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap add_users_group_512 {
             get {
                 object obj = ResourceManager.GetObject("add_users_group-512", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap book_bookmark_library_literature_knowledge_tutorial_128 {
+            get {
+                object obj = ResourceManager.GetObject("book_bookmark_library_literature_knowledge_tutorial-128", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap com_clr_cash_out_128 {
+            get {
+                object obj = ResourceManager.GetObject("com-clr-cash_out-128", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap com_clr_package_256 {
+            get {
+                object obj = ResourceManager.GetObject("com-clr-package-256", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -93,9 +153,39 @@ namespace BachHoaXanh.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap doc17_128 {
+            get {
+                object obj = ResourceManager.GetObject("doc17-128", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap DOWNLOAD {
             get {
                 object obj = ResourceManager.GetObject("DOWNLOAD", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Expired_128 {
+            get {
+                object obj = ResourceManager.GetObject("Expired-128", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap File_Import_128 {
+            get {
+                object obj = ResourceManager.GetObject("File_Import-128", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -123,6 +213,26 @@ namespace BachHoaXanh.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Info {
+            get {
+                object obj = ResourceManager.GetObject("Info", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap money_income_cash_bank_128 {
+            get {
+                object obj = ResourceManager.GetObject("money_income_cash_bank-128", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap NETWORK___HDD {
             get {
                 object obj = ResourceManager.GetObject("NETWORK - HDD", resourceCulture);
@@ -143,9 +253,25 @@ namespace BachHoaXanh.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+<<<<<<< HEAD
         internal static System.Drawing.Bitmap page_wise_permission {
             get {
                 object obj = ResourceManager.GetObject("page-wise-permission", resourceCulture);
+=======
+        internal static System.Drawing.Bitmap people_contacts_group_128 {
+            get {
+                object obj = ResourceManager.GetObject("people_contacts_group-128", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap real_estate_vector_symbol_128 {
+            get {
+                object obj = ResourceManager.GetObject("real_estate_vector_symbol-128", resourceCulture);
+>>>>>>> 38a4bb707dca4491f2c82246f897becf68dea9a6
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
