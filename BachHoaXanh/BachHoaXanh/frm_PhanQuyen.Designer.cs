@@ -127,7 +127,7 @@
             // 
             this.barButtonItem3.Caption = "Thêm Người Dùng";
             this.barButtonItem3.Id = 48;
-            this.barButtonItem3.LargeGlyph = global::BachHoaXanh.Properties.Resources.add_users_group_512;
+            this.barButtonItem3.LargeGlyph = global::BachHoaXanh.Properties.Resources.adduser;
             this.barButtonItem3.LargeWidth = 80;
             this.barButtonItem3.Name = "barButtonItem3";
             // 
@@ -135,7 +135,7 @@
             // 
             this.barButtonItem4.Caption = "Xóa Người Dùng";
             this.barButtonItem4.Id = 49;
-            this.barButtonItem4.LargeGlyph = global::BachHoaXanh.Properties.Resources.delete_users_512;
+            this.barButtonItem4.LargeGlyph = global::BachHoaXanh.Properties.Resources.deluser;
             this.barButtonItem4.LargeWidth = 80;
             this.barButtonItem4.Name = "barButtonItem4";
             // 
@@ -220,9 +220,9 @@
             // dockPanel_Container
             // 
             this.dockPanel_Container.Controls.Add(this.accordionControl);
-            this.dockPanel_Container.Location = new System.Drawing.Point(3, 24);
+            this.dockPanel_Container.Location = new System.Drawing.Point(4, 25);
             this.dockPanel_Container.Name = "dockPanel_Container";
-            this.dockPanel_Container.Size = new System.Drawing.Size(193, 417);
+            this.dockPanel_Container.Size = new System.Drawing.Size(191, 415);
             this.dockPanel_Container.TabIndex = 0;
             // 
             // accordionControl
@@ -233,7 +233,7 @@
             this.mainAccordionGroup});
             this.accordionControl.Location = new System.Drawing.Point(0, 0);
             this.accordionControl.Name = "accordionControl";
-            this.accordionControl.Size = new System.Drawing.Size(193, 417);
+            this.accordionControl.Size = new System.Drawing.Size(191, 415);
             this.accordionControl.TabIndex = 0;
             this.accordionControl.Text = "accordionControl";
             this.accordionControl.SelectedElementChanged += new DevExpress.XtraBars.Navigation.SelectedElementChangedEventHandler(this.accordionControl_SelectedElementChanged);

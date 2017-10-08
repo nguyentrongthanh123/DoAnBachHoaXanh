@@ -124,9 +124,10 @@
             this.barButtonItem2.Caption = "Sao Lưu Dữ Liệu";
             this.barButtonItem2.Glyph = global::BachHoaXanh.Properties.Resources.DOWNLOAD;
             this.barButtonItem2.Id = 2;
-            this.barButtonItem2.LargeGlyph = global::BachHoaXanh.Properties.Resources.DOWNLOAD;
+            this.barButtonItem2.LargeGlyph = global::BachHoaXanh.Properties.Resources.saoluu;
             this.barButtonItem2.LargeWidth = 80;
             this.barButtonItem2.Name = "barButtonItem2";
+            this.barButtonItem2.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem2_ItemClick);
             // 
             // barButtonItem3
             // 
@@ -134,6 +135,7 @@
             this.barButtonItem3.Glyph = global::BachHoaXanh.Properties.Resources.SLUI_exe_I0001_0409;
             this.barButtonItem3.Id = 3;
             this.barButtonItem3.Name = "barButtonItem3";
+            this.barButtonItem3.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem3_ItemClick);
             // 
             // barButtonItem4
             // 
@@ -153,7 +155,7 @@
             this.barButtonItem6.Caption = "Phân Quyền Người Dùng";
             this.barButtonItem6.Glyph = global::BachHoaXanh.Properties.Resources.Spring_Icon_124;
             this.barButtonItem6.Id = 6;
-            this.barButtonItem6.LargeGlyph = global::BachHoaXanh.Properties.Resources.Spring_Icon_124;
+            this.barButtonItem6.LargeGlyph = global::BachHoaXanh.Properties.Resources.phanquyen;
             this.barButtonItem6.LargeWidth = 80;
             this.barButtonItem6.Name = "barButtonItem6";
             this.barButtonItem6.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem6_ItemClick);
@@ -163,9 +165,10 @@
             this.barButtonItem7.Caption = "Phục Hồi Dữ Liệu";
             this.barButtonItem7.Glyph = global::BachHoaXanh.Properties.Resources.HDD;
             this.barButtonItem7.Id = 7;
-            this.barButtonItem7.LargeGlyph = global::BachHoaXanh.Properties.Resources.HDD;
+            this.barButtonItem7.LargeGlyph = global::BachHoaXanh.Properties.Resources.phuchoi;
             this.barButtonItem7.LargeWidth = 80;
             this.barButtonItem7.Name = "barButtonItem7";
+            this.barButtonItem7.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem7_ItemClick);
             // 
             // barButtonItem1
             // 

@@ -80,6 +80,12 @@
     <Compile Include="frm_Main.Designer.cs">
       <DependentUpon>frm_Main.cs</DependentUpon>
     </Compile>
+    <Compile Include="frm_PhucHoiDuLieu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_PhucHoiDuLieu.Designer.cs">
+      <DependentUpon>frm_PhucHoiDuLieu.cs</DependentUpon>
+    </Compile>
     <Compile Include="frm_SaoLuuDuLieu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -123,6 +129,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frm_PhanQuyen.resx">
       <DependentUpon>frm_PhanQuyen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_PhucHoiDuLieu.resx">
+      <DependentUpon>frm_PhucHoiDuLieu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_SaoLuuDuLieu.resx">
+      <DependentUpon>frm_SaoLuuDuLieu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frm_ThongTinNguoiDung.resx">
       <DependentUpon>frm_ThongTinNguoiDung.cs</DependentUpon>
@@ -219,6 +231,27 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Info.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\phanquyen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\saoluu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\phuchoi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\adduser.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\deluser.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bannersaoluu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bannerphuchoi.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.

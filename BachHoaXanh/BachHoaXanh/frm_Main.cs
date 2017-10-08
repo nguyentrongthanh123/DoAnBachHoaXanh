@@ -15,8 +15,7 @@ namespace BachHoaXanh
         {
             InitializeComponent();
         }
-        // ham nay la hom add form ne
-        // gio moi lan viet su kien cho click
+        
         public void addform(Form frm)
         {
             frm.MdiParent = this;
@@ -28,7 +27,6 @@ namespace BachHoaXanh
         {
             frm_DangNhap frm = new frm_DangNhap();
             addform(frm);
-            //chu new fom roi goi ham la dc
         }
 
         private void barButtonItem18_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
@@ -38,6 +36,24 @@ namespace BachHoaXanh
         private void barButtonItem6_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
             frm_PhanQuyen frm = new frm_PhanQuyen();
+            addform(frm);
+        }
+
+        private void barButtonItem3_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            frm_DoiMatKhau frm = new frm_DoiMatKhau();
+            addform(frm);
+        }
+
+        private void barButtonItem2_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            frm_SaoLuuDuLieu frm = new frm_SaoLuuDuLieu();
+            addform(frm);
+        }
+
+        private void barButtonItem7_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            frm_PhucHoiDuLieu frm = new frm_PhucHoiDuLieu();
             addform(frm);
         }
     }

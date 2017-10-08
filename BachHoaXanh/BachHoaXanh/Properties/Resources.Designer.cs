@@ -103,6 +103,36 @@ namespace BachHoaXanh.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap adduser {
+            get {
+                object obj = ResourceManager.GetObject("adduser", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap bannerphuchoi {
+            get {
+                object obj = ResourceManager.GetObject("bannerphuchoi", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap bannersaoluu {
+            get {
+                object obj = ResourceManager.GetObject("bannersaoluu", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap book_bookmark_library_literature_knowledge_tutorial_128 {
             get {
                 object obj = ResourceManager.GetObject("book_bookmark_library_literature_knowledge_tutorial-128", resourceCulture);
@@ -146,6 +176,16 @@ namespace BachHoaXanh.Properties {
         internal static System.Drawing.Bitmap delete_users_512 {
             get {
                 object obj = ResourceManager.GetObject("delete_users-512", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap deluser {
+            get {
+                object obj = ResourceManager.GetObject("deluser", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -263,9 +303,39 @@ namespace BachHoaXanh.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap phanquyen {
+            get {
+                object obj = ResourceManager.GetObject("phanquyen", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap phuchoi {
+            get {
+                object obj = ResourceManager.GetObject("phuchoi", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap real_estate_vector_symbol_128 {
             get {
                 object obj = ResourceManager.GetObject("real_estate_vector_symbol-128", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap saoluu {
+            get {
+                object obj = ResourceManager.GetObject("saoluu", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
