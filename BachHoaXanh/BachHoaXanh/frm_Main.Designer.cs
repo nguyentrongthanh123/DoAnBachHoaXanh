@@ -108,7 +108,7 @@
             this.barButtonItem6.Caption = "Phân Quyền Người Dùng";
             this.barButtonItem6.Glyph = global::BachHoaXanh.Properties.Resources.Spring_Icon_124;
             this.barButtonItem6.Id = 6;
-            this.barButtonItem6.LargeGlyph = global::BachHoaXanh.Properties.Resources.Spring_Icon_124;
+            this.barButtonItem6.LargeGlyph = global::BachHoaXanh.Properties.Resources.page_wise_permission;
             this.barButtonItem6.LargeWidth = 80;
             this.barButtonItem6.Name = "barButtonItem6";
             // 

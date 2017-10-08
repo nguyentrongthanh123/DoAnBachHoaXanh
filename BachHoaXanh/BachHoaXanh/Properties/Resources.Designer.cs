@@ -143,6 +143,16 @@ namespace BachHoaXanh.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap page_wise_permission {
+            get {
+                object obj = ResourceManager.GetObject("page-wise-permission", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap SLUI_exe_I0001_0409 {
             get {
                 object obj = ResourceManager.GetObject("SLUI.exe_I0001_0409", resourceCulture);
