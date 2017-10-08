@@ -20,7 +20,7 @@ namespace BachHoaXanh
 
             BonusSkins.Register();
             SkinManager.EnableFormSkins();
-            Application.Run(new frm_PhanQuyen());
+            Application.Run(new frm_Main());
         }
     }
 }

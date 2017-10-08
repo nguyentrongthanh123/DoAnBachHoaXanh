@@ -34,8 +34,14 @@
             this.barSubItemNavigation = new DevExpress.XtraBars.BarSubItem();
             this.employeesBarButtonItem = new DevExpress.XtraBars.BarButtonItem();
             this.customersBarButtonItem = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem3 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem4 = new DevExpress.XtraBars.BarButtonItem();
+            this.barEditItem1 = new DevExpress.XtraBars.BarEditItem();
+            this.repositoryItemSearchControl1 = new DevExpress.XtraEditors.Repository.RepositoryItemSearchControl();
             this.ribbonPage = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.ribbonPageGroupNavigation = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
+            this.ribbonPageGroup4 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
+            this.ribbonPageGroup5 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonStatusBar = new DevExpress.XtraBars.Ribbon.RibbonStatusBar();
             this.dockManager = new DevExpress.XtraBars.Docking.DockManager(this.components);
             this.dockPanel = new DevExpress.XtraBars.Docking.DockPanel();
@@ -50,22 +56,16 @@
             this.ribbonPageGroup2 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonPageGroup1 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonPageGroup3 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
-            this.ribbonPageGroup4 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.barButtonItem1 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem2 = new DevExpress.XtraBars.BarButtonItem();
-            this.barButtonItem3 = new DevExpress.XtraBars.BarButtonItem();
-            this.barButtonItem4 = new DevExpress.XtraBars.BarButtonItem();
-            this.ribbonPageGroup5 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
-            this.barEditItem1 = new DevExpress.XtraBars.BarEditItem();
-            this.repositoryItemSearchControl1 = new DevExpress.XtraEditors.Repository.RepositoryItemSearchControl();
             ((System.ComponentModel.ISupportInitialize)(this.ribbonControl)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemSearchControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dockManager)).BeginInit();
             this.dockPanel.SuspendLayout();
             this.dockPanel_Container.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.accordionControl)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tabbedView)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.documentManager)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemSearchControl1)).BeginInit();
             this.SuspendLayout();
             // 
             // ribbonControl
@@ -90,7 +90,7 @@
             this.repositoryItemSearchControl1});
             this.ribbonControl.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonControlStyle.Office2013;
             this.ribbonControl.ShowApplicationButton = DevExpress.Utils.DefaultBoolean.False;
-            this.ribbonControl.Size = new System.Drawing.Size(790, 147);
+            this.ribbonControl.Size = new System.Drawing.Size(798, 147);
             this.ribbonControl.StatusBar = this.ribbonStatusBar;
             this.ribbonControl.ToolbarLocation = DevExpress.XtraBars.Ribbon.RibbonQuickAccessToolbarLocation.Hidden;
             // 
@@ -123,6 +123,38 @@
             this.customersBarButtonItem.Name = "customersBarButtonItem";
             this.customersBarButtonItem.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonNavigation_ItemClick);
             // 
+            // barButtonItem3
+            // 
+            this.barButtonItem3.Caption = "Thêm Người Dùng";
+            this.barButtonItem3.Id = 48;
+            this.barButtonItem3.LargeGlyph = global::BachHoaXanh.Properties.Resources.add_users_group_512;
+            this.barButtonItem3.LargeWidth = 80;
+            this.barButtonItem3.Name = "barButtonItem3";
+            // 
+            // barButtonItem4
+            // 
+            this.barButtonItem4.Caption = "Xóa Người Dùng";
+            this.barButtonItem4.Id = 49;
+            this.barButtonItem4.LargeGlyph = global::BachHoaXanh.Properties.Resources.delete_users_512;
+            this.barButtonItem4.LargeWidth = 80;
+            this.barButtonItem4.Name = "barButtonItem4";
+            // 
+            // barEditItem1
+            // 
+            this.barEditItem1.Caption = "Tìm Kiếm :";
+            this.barEditItem1.Edit = this.repositoryItemSearchControl1;
+            this.barEditItem1.EditWidth = 200;
+            this.barEditItem1.Id = 50;
+            this.barEditItem1.Name = "barEditItem1";
+            // 
+            // repositoryItemSearchControl1
+            // 
+            this.repositoryItemSearchControl1.AutoHeight = false;
+            this.repositoryItemSearchControl1.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Repository.ClearButton(),
+            new DevExpress.XtraEditors.Repository.SearchButton()});
+            this.repositoryItemSearchControl1.Name = "repositoryItemSearchControl1";
+            // 
             // ribbonPage
             // 
             this.ribbonPage.Groups.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageGroup[] {
@@ -138,12 +170,25 @@
             this.ribbonPageGroupNavigation.Name = "ribbonPageGroupNavigation";
             this.ribbonPageGroupNavigation.Text = "Module";
             // 
+            // ribbonPageGroup4
+            // 
+            this.ribbonPageGroup4.ItemLinks.Add(this.barButtonItem3);
+            this.ribbonPageGroup4.ItemLinks.Add(this.barButtonItem4);
+            this.ribbonPageGroup4.Name = "ribbonPageGroup4";
+            this.ribbonPageGroup4.Text = "Chức Năng";
+            // 
+            // ribbonPageGroup5
+            // 
+            this.ribbonPageGroup5.ItemLinks.Add(this.barEditItem1);
+            this.ribbonPageGroup5.Name = "ribbonPageGroup5";
+            this.ribbonPageGroup5.Text = "Tìm Kiếm Người Dùng";
+            // 
             // ribbonStatusBar
             // 
-            this.ribbonStatusBar.Location = new System.Drawing.Point(0, 576);
+            this.ribbonStatusBar.Location = new System.Drawing.Point(0, 591);
             this.ribbonStatusBar.Name = "ribbonStatusBar";
             this.ribbonStatusBar.Ribbon = this.ribbonControl;
-            this.ribbonStatusBar.Size = new System.Drawing.Size(790, 23);
+            this.ribbonStatusBar.Size = new System.Drawing.Size(798, 23);
             // 
             // dockManager
             // 
@@ -169,15 +214,15 @@
             this.dockPanel.Location = new System.Drawing.Point(0, 147);
             this.dockPanel.Name = "dockPanel";
             this.dockPanel.OriginalSize = new System.Drawing.Size(200, 200);
-            this.dockPanel.Size = new System.Drawing.Size(200, 429);
+            this.dockPanel.Size = new System.Drawing.Size(200, 444);
             this.dockPanel.Text = "Navigation";
             // 
             // dockPanel_Container
             // 
             this.dockPanel_Container.Controls.Add(this.accordionControl);
-            this.dockPanel_Container.Location = new System.Drawing.Point(4, 25);
+            this.dockPanel_Container.Location = new System.Drawing.Point(3, 24);
             this.dockPanel_Container.Name = "dockPanel_Container";
-            this.dockPanel_Container.Size = new System.Drawing.Size(191, 400);
+            this.dockPanel_Container.Size = new System.Drawing.Size(193, 417);
             this.dockPanel_Container.TabIndex = 0;
             // 
             // accordionControl
@@ -188,7 +233,7 @@
             this.mainAccordionGroup});
             this.accordionControl.Location = new System.Drawing.Point(0, 0);
             this.accordionControl.Name = "accordionControl";
-            this.accordionControl.Size = new System.Drawing.Size(191, 400);
+            this.accordionControl.Size = new System.Drawing.Size(193, 417);
             this.accordionControl.TabIndex = 0;
             this.accordionControl.Text = "accordionControl";
             this.accordionControl.SelectedElementChanged += new DevExpress.XtraBars.Navigation.SelectedElementChangedEventHandler(this.accordionControl_SelectedElementChanged);
@@ -247,13 +292,6 @@
             this.ribbonPageGroup3.Name = "ribbonPageGroup3";
             this.ribbonPageGroup3.Text = "Chức Năng";
             // 
-            // ribbonPageGroup4
-            // 
-            this.ribbonPageGroup4.ItemLinks.Add(this.barButtonItem3);
-            this.ribbonPageGroup4.ItemLinks.Add(this.barButtonItem4);
-            this.ribbonPageGroup4.Name = "ribbonPageGroup4";
-            this.ribbonPageGroup4.Text = "Chức Năng";
-            // 
             // barButtonItem1
             // 
             this.barButtonItem1.Caption = "Thêm Người Dùng";
@@ -270,63 +308,26 @@
             this.barButtonItem2.LargeWidth = 80;
             this.barButtonItem2.Name = "barButtonItem2";
             // 
-            // barButtonItem3
-            // 
-            this.barButtonItem3.Caption = "Thêm Người Dùng";
-            this.barButtonItem3.Id = 48;
-            this.barButtonItem3.LargeGlyph = global::BachHoaXanh.Properties.Resources.add_users_group_512;
-            this.barButtonItem3.LargeWidth = 80;
-            this.barButtonItem3.Name = "barButtonItem3";
-            // 
-            // barButtonItem4
-            // 
-            this.barButtonItem4.Caption = "Xóa Người Dùng";
-            this.barButtonItem4.Id = 49;
-            this.barButtonItem4.LargeGlyph = global::BachHoaXanh.Properties.Resources.delete_users_512;
-            this.barButtonItem4.LargeWidth = 80;
-            this.barButtonItem4.Name = "barButtonItem4";
-            // 
-            // ribbonPageGroup5
-            // 
-            this.ribbonPageGroup5.ItemLinks.Add(this.barEditItem1);
-            this.ribbonPageGroup5.Name = "ribbonPageGroup5";
-            this.ribbonPageGroup5.Text = "Tìm Kiếm Người Dùng";
-            // 
-            // barEditItem1
-            // 
-            this.barEditItem1.Caption = "Tìm Kiếm :";
-            this.barEditItem1.Edit = this.repositoryItemSearchControl1;
-            this.barEditItem1.EditWidth = 200;
-            this.barEditItem1.Id = 50;
-            this.barEditItem1.Name = "barEditItem1";
-            // 
-            // repositoryItemSearchControl1
-            // 
-            this.repositoryItemSearchControl1.AutoHeight = false;
-            this.repositoryItemSearchControl1.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Repository.ClearButton(),
-            new DevExpress.XtraEditors.Repository.SearchButton()});
-            this.repositoryItemSearchControl1.Name = "repositoryItemSearchControl1";
-            // 
-            // frm_PhanQuyen1
+            // frm_PhanQuyen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(790, 599);
+            this.ClientSize = new System.Drawing.Size(798, 614);
+            this.ControlBox = false;
             this.Controls.Add(this.dockPanel);
             this.Controls.Add(this.ribbonStatusBar);
             this.Controls.Add(this.ribbonControl);
-            this.Name = "frm_PhanQuyen1";
+            this.Name = "frm_PhanQuyen";
             this.Ribbon = this.ribbonControl;
             this.StatusBar = this.ribbonStatusBar;
             ((System.ComponentModel.ISupportInitialize)(this.ribbonControl)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemSearchControl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dockManager)).EndInit();
             this.dockPanel.ResumeLayout(false);
             this.dockPanel_Container.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.accordionControl)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.tabbedView)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.documentManager)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemSearchControl1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
