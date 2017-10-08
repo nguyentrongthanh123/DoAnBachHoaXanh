@@ -56,5 +56,11 @@ namespace BachHoaXanh
             frm_PhucHoiDuLieu frm = new frm_PhucHoiDuLieu();
             addform(frm);
         }
+
+        private void barButtonItem23_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            t frm = new t();
+            addform(frm);
+        }
     }
 }
